@@ -1,4 +1,7 @@
 package stacks;
+
+import java.util.ArrayList;
+
 public class StackImplementationByArray {
     public static class Stack{
         public int arr[]=new int [5];
@@ -78,6 +81,7 @@ public class StackImplementationByArray {
            System.out.println(b1);
 
            boolean b2=st.isFull();
-           System.out.println(b2);
+           System.out.println(b2);.
+           List<Integer> l1=new ArrayList<>();
     }
 }
